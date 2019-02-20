@@ -20,8 +20,8 @@ function currentLine(current) {
   else {
   const positions = [];
   for (let i=0; i<current.length; i++){
-    positions.push(`${i + 1}. `);
+    positions.push(`${i + 1}. ${current[i]}`);
   }
-  return `The line is currently: ${positions.join(`, ${current[]}`)}`;
+  return `The line is currently: ${positions}`;
 }
 }
