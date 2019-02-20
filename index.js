@@ -22,6 +22,6 @@ function currentLine(current) {
   for (let i=0; i<current.length; i++){
     positions.push(`${i + 1}. `);
   }
-  return `The line is currently: ${positions.join(`, ${current[i]}`)}`;
+  return `The line is currently: ${positions.join(`, ${current[]}`)}`;
 }
 }
