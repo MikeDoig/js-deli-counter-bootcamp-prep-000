@@ -5,8 +5,10 @@ function takeANumber (line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
-function takeANumberTwo (line, name)
-  
+function takeANumberTwo ()
+  var continuous = 0
+  continuous + 1
+  return 'Welcome, you are number'
 
 function nowServing(front) {
   if (front.length===0)
